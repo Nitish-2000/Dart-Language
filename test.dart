@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 void main() {// entry point of dart program / application
  print("Hello Talkies"); 
  print(3+2); //Adding two numbers
@@ -6,7 +8,7 @@ void main() {// entry point of dart program / application
 
 //variables:
 int abc = 56; // non decimal values
-double aaa = 56;  // allows decimal
+double aaa = 56.2344;  // allows decimal
 String abb = "Nitis"; // allows strings
 bool isbbb = true; // allows boolean
 
@@ -83,4 +85,9 @@ while(i<value01){
 do{
   print("Yes");
 }while(i<value01); i++;
+
+
+
+
+
 } 
